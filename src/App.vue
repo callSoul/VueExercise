@@ -2,7 +2,7 @@
 <template>
 	<div>
 		<!-- 1.0 利用mint-ui中的header组件实现整个系统的头部 -->
-		<mt-header fixed title="传智播客.黑马程序员Vue商城系统"></mt-header>
+		<mt-header fixed id='heade' title="Vue的demo"></mt-header>
 
 		<!-- 2.0 利用vue-router的 <router-view>进行占位 -->
 		<router-view></router-view>
@@ -34,7 +34,11 @@
 </template>
 
 <script>
-
+import { vm,COUNTSTR } from './kits/vm.js';
+vm.$on(COUNTSTR,function(count){
+	var badge = document.querySelector('.mui-badge');
+	badge.innerText = parseInt(badge.innerText) + count;
+})
 	export default{  // es6的导出对象的写法
 		data(){  //等价于 es5的 data:function(){
 			return {
@@ -51,6 +55,10 @@
 </script>
 
 <style scoped>
-/*当前页面的css样式写到这里，其中scoped表示这个里面写的css代码只是在当前组件页面上有效，不会去影响到其他组件页面*/
-
+#heade {
+	background-color:orange;
+}
+.mui-badge:empty {
+	display: none;
+}
 </style>

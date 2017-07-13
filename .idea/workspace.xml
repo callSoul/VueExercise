@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bd0ae8a-0ca8-4a90-af93-eb0ab42bcbe6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/subcom/comment.vue" afterPath="$PROJECT_DIR$/src/components/subcom/comment.vue" />
-    </list>
+    <list default="true" id="4bd0ae8a-0ca8-4a90-af93-eb0ab42bcbe6" name="Default" comment="" />
     <ignored path="vueitcastsy.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +44,8 @@
       <file leaf-file-name="comment.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/subcom/comment.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            <state relative-caret-position="414">
+              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
               <folding>
                 <element signature="e#859#901#0" expanded="true" />
               </folding>
@@ -339,12 +337,12 @@
       <workItem from="1491759719205" duration="797000" />
       <workItem from="1491760894154" duration="1011000" />
       <workItem from="1491790420862" duration="2294000" />
-      <workItem from="1491796086165" duration="12231000" />
+      <workItem from="1491796086165" duration="12433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19869000" />
+    <option name="totallyTimeSpent" value="20071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -467,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/subcom/comment.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state relative-caret-position="414">
+          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
           <folding>
             <element signature="e#859#901#0" expanded="true" />
           </folding>
